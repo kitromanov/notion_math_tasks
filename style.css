@@ -1,0 +1,19 @@
+input, text-box {
+    height: 30px;
+    font-size: medium;
+}
+
+.text-box {
+    width: 150px;
+    background: aliceblue;
+    margin-bottom: 2px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+#box1-wrong-answer {
+    display: none;
+    color: red;
+}

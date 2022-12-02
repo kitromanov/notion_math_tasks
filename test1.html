@@ -1,1 +1,26 @@
-<input type="month" />
+<html>
+    <head>
+        <script src="checker.js"></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <form>
+                <input class="text-box" id="box1" type="text" name="answer1" onSubmit="task1(this.form)">
+                <input type="submit" value="Проверка" onClick="    task1(this.form, 1)">
+                <br><label id="box1-wrong-answer">Неверный ответ</label>
+                <script>
+                    if(localStorage.getItem("box1") == "lime") {
+                        box1 = document.getElementById("box1");
+                        box1.style.background='rgb(161, 255, 21)';
+                        box1.placeholder=localStorage.getItem("box1_answer");
+                        box1.readOnly=true;
+                    } else if(localStorage.getItem("box1_answer_flag") == -1) {
+                        document.getElementById("box1-wrong-answer").style.display="block";
+                        localStorage.setItem('box1_answer_flag', 1);
+                    }
+                </script>
+            </form>
+        </main>
+    </body>
+</html>
