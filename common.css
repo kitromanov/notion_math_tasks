@@ -12,8 +12,3 @@ input, text-box {
 input::placeholder {
     color: black;
 }
-
-#box1-wrong-answer {
-    display: none;
-    color: red;
-}
