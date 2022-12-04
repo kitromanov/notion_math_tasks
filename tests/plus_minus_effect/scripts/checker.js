@@ -55,5 +55,41 @@ function checker(form, box_name) {
                 localStorage.setItem(box_name + "_answer_flag", -1);
             }
             break;
+        case 'box7':
+            if (form.answer7.value == 31) {
+                box.style.background='rgb(161, 255, 21)';
+                localStorage.setItem(box_name, 'rgb(161, 255, 21)');
+                localStorage.setItem(box_name + "_answer", form.answer7 .value);
+            } else {
+                localStorage.setItem(box_name + "_answer_flag", -1);
+            }
+            break;
+        case 'box8':
+            if (form.answer8.value == 17) {
+                box.style.background='rgb(161, 255, 21)';
+                localStorage.setItem(box_name, 'rgb(161, 255, 21)');
+                localStorage.setItem(box_name + "_answer", form.answer8.value);
+            } else {
+                localStorage.setItem(box_name + "_answer_flag", -1);
+            }
+            break;
+        case 'box9':
+            if (form.answer9.value == 42) {
+                box.style.background='rgb(161, 255, 21)';
+                localStorage.setItem(box_name, 'rgb(161, 255, 21)');
+                localStorage.setItem(box_name + "_answer", form.answer9.value);
+            } else {
+                localStorage.setItem(box_name + "_answer_flag", -1);
+            }
+            break;
+        case 'box10':
+            if (form.answer10.value == 112) {
+                box.style.background='rgb(161, 255, 21)';
+                localStorage.setItem(box_name, 'rgb(161, 255, 21)');
+                localStorage.setItem(box_name + "_answer", form.answer10.value);
+            } else {
+                localStorage.setItem(box_name + "_answer_flag", -1);
+            }
+            break;
     }
 }

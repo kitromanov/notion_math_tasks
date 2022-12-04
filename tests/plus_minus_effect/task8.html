@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link href="../../common.css" rel="stylesheet">
+        <link href="plus_minus_effect_style.css" rel="stylesheet">
+        <script src="./scripts/checker.js"></script>
+        <script src="./scripts/update_box_style.js"></script>
+    </head>
+    <body>
+        <main>
+            <form>
+                <input id="box8" class="text-box" type="text" name="answer8" onSubmit="checker(this.form, 'box8')">
+                <input type="submit" value="Проверка" onClick="checker(this.form, 'box8')">
+                <br><label id="box8-wrong-answer">Неверный ответ</label>
+                <script>update_box_style("box8", "rgb(161, 255, 21)")</script>
+            </form>
+        </main>
+    </body>
+</html>
