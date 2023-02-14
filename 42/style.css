@@ -1,0 +1,14 @@
+.heart {
+    font-size: 100px;
+    color: #e00;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+#inner { width: 50px; margin: 0 auto; }
+
+@keyframes beat {
+    to {
+        transform: scale(1.4);
+    }
+}
