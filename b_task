@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="/plugins/b2p/landing/views/ginza/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>Виртуальная карта Ginza Project</title>
+    <link rel="preload" href="/plugins/b2p/landing/views/ginza/fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/plugins/b2p/landing/views/ginza/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/plugins/b2p/landing/views/ginza/css/vendor.css">
+    <link rel="stylesheet" href="/plugins/b2p/landing/views/ginza/css/main.css">
+</head>
+<body class="page__body">
+<div class="site-container">
+    <header class="header"><!--<img class="header__bg-wrapper" src="img/bg-header.jpg" alt="">-->
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo logo"><img src="/plugins/b2p/landing/views/ginza/img/logo.svg" alt="Ginza Project Logo"></div>
+                <h1 class="header__title">Вам подарили виртуальную карту Ginza Project</h1>
+                <p class="header__text">Виртуальная карта — оплачивайте покупки в <br>ресторанах, также как и обычной
+                    картой</p><a href="https://pay.best2pay.net/webapi/b2puser/VCardAndSetPhone?sector=7835&client_ref=592b7c6d-65a2-4bf7-8a60-16d830865693&signature=MWUzODMzNzQwMTVmNzI2YmZhMzQ4MDc5ODIxYjk2ZWU=" class="header__btn btn">Показать карту</a></div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="how-to-use">
+            <div class="container">
+                <div class="how-to-use__content"><p class="how-to-use__slogan">Пользуйтесь виртуальной картой так же,
+                    как настоящей — <a href="https://gift.ginza.ru/restaurants">адреса ресторанов</a></p>
+                    <div class="how-to-use__container">
+                        <div class="how-to-use__img"><img src="/plugins/b2p/landing/views/ginza/img/phone.jpg" alt="Картинка с примером виртуальной карты на мобильном телефоне">
+                        </div>
+                        <div class="how-to-use__wrapper"><h2 class="how-to-use__title">Очень <br>просто пользоваться
+                        </h2>
+                            <p class="how-to-use__text">Сохраните данные карты в заметки или добавьте её в <a href="https://mironline.ru/mirpay/"><b>Mir
+                                Pay</b></a>. <br>Но сперва активируйте карту — это займет пару минут.</p>
+                            <a href="https://pay.best2pay.net/webapi/b2puser/VCardAndSetPhone?sector=7835&client_ref=592b7c6d-65a2-4bf7-8a60-16d830865693&signature=MWUzODMzNzQwMTVmNzI2YmZhMzQ4MDc5ODIxYjk2ZWU=" class="how-to-use__btn btn">Показать карту</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content"><p class="footer__text footer__holder">Услуга предоставлена ООО «Бест2пей»</p>
+                <a href="https://www.minbank.ru/upload/medialibrary/40a/oferta_eds_ao_ME_s_26092022.PDF" class="footer__text footer__link footer__offer">Оферта банка</a>
+                <a href="https://test.best2pay.net/static/custom/2999/new/docs/rules_using_ecard.pdf" class="footer__text footer__link footer__rules">Правила использования виртуальных карт</a>
+                <a class="footer__text footer__tel" href="tel:+7-800-250-78-80">8 800 250-78-80</a>
+                <a href="mailto:help@best2pay.net" class="footer__text footer__email">help@best2pay.net</a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
